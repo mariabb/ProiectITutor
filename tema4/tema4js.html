@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tema 4</title>
+    <style>
+      body {
+        margin: 20;
+        padding: 20;
+        background: gray;
+        font-family: 'Algerian', monospace;
+        color: white;
+        font-size: 18px;
+      }
+    </style>
+</head>
+<body>
+<h1>
+    What Can JavaScript Do?
+</h1>
+<p id="ex">JavaScript can change HTML content.</p>
+<button type="button" onclick='document.getElementById("ex").innerHTML = "Hello let s learn JAVASCRIPT!"'>Click Me!
+</button>
+<p>JavaScript can change HTML attribute values.
+    <br />
+    Javascript can be used to change the attribute(s) of a HTML element, such
+    as a paragraph, a header, an image, or a list, or any various HTML elements.</p>
+<p>In this case JavaScript changes the image's height and width elements to smaller dimensions.</p>
+<img id="imagesize" src="https://cdn.getyourguide.com/img/tour_img-1031694-145.jpg" width="1000px" height="600px" alt="aptera">
+<br />
+<script>
+      function changeimagesize() {
+        document.getElementById("imagesize").height = 188;
+        document.getElementById("imagesize").width = 534;
+      }
+    </script>
+<button onclick="changeimagesize()">Make Image Smaller</button>
+<p>Another example: by changing the src attribute of an img tag, we can change the image entirely to something else with
+    Javascript.
+</p>
+<br />
+<img id="image" src="https://cdn.getyourguide.com/img/tour_img-1031697-145.jpg">
+<script>
+      function changeimage() {
+        document.getElementById("image").src = "https://cdn.getyourguide.com/img/tour_img-1031691-145.jpg";
+      }
+    </script>
+<br />
+<button onclick="changeimage()">Change image</button>
+<br />
+<p id="exst">JavaScript can change the style of an HTML element.</p>
+<button type="button" onclick="document.getElementById('exst').style.fontSize='35px';style.color='red'">Click Me!</button>
+<!--Here I wanted to change the color of text in red, but only the button became red-->
+<br />
+<p id="demohide">JavaScript can hide HTML elements.</p>
+<button type="button" onclick="document.getElementById('demohide').style.display='none'">Click Me!</button>
+<br />
+<p>JavaScript can show hidden HTML elements.</p>
+<p id="demoshow" style="display:none">Hello JavaScript!</p>
+<button type="button" onclick="document.getElementById('demoshow').style.display='block'">Click Me!</button>
+<br />
+<p>
+    Output and statement :<br />
+    A computer program is a list of "instructions" to be "executed" by a computer.<br />
+    In a programming language, these programming instructions are called statements.<br />
+    A JavaScript program is a list of programming statements.<br />
+    In HTML, JavaScript programs are executed by the web browser.<br />
+    JavaScript statements are composed of:
+    Values, Operators, Expressions, Keywords, and Comments.<br />
+</p>
+<p>Output:
+</p>
+<p id="demonr"></p>
+<script>
+      document.getElementById("demonr").innerHTML = 10 + 20;
+    </script>
+<p>Click the button to loop through a block of code as long as i is less than 7.</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demoi"></p>
+<br />
+<script>
+      function myFunction() {
+        var text = "";
+        var i = 0;
+        while (i < 7) {
+          text += "<br>The number is " + i;
+          i++;
+        }
+        document.getElementById("demoi").innerHTML = text;
+      }
+    </script>
+</body>
+</html>

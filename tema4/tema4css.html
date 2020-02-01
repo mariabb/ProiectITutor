@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="index555.css">
+</head>
+<body>
+<!-- header -->
+<header id="top">
+    <h1>Vincent van gogh</h1>
+    <p>Vincent Willem van Gogh was a Dutch post-impressionist painter who is among the most famous and influential
+        figures in the history of Western art. In just over a decade, he created about 2,100 artworks, including around
+        860 oil paintings, most of which date from the last two years of his life.
+    </p>
+</header>
+<!-- menu navigation -->
+<div id="menu">
+    <nav>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#exhibition">Exhibitions</a></li>
+            <li><a href="#prices">Prices</a></li>
+            <li><a href="#forum">Forum</a></li>
+        </ul>
+    </nav>
+</div>
+<!-- The four columns for images -->
+<div class="row">
+    <div class="column">
+        <img src="https://d2jv9003bew7ag.cloudfront.net/uploads/Vincent-van-Gogh-Undergrowth-with-Two-Figures-1890.-Cincinnati-Art-Museum-Bequest-of-Mary-E.-Johnston-19671.jpg" alt="pic1" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="https://d2jv9003bew7ag.cloudfront.net/uploads/Vincent-van-Gogh-Almond-Blossom.-Oil-on-canvas-Van-Gogh-Museum-Amsterdam-Vincent-van-Gogh-Foundation.jpg" alt="pic2" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="https://d2jv9003bew7ag.cloudfront.net/uploads/Vincent-van-Gogh-La-Crau-with-Peach-Trees-in-Blossom-1889.-The-Samuel-Courtauld-Trust-The-Courtauld-Gallery-London.jpg" alt="pic3" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="https://d2jv9003bew7ag.cloudfront.net/uploads/Vincent-van-Gogh-The-Bedroom.-Oil-on-canvas-Van-Gogh-Museum-Amsterdam-Vincent-van-Gogh-Foundation-.jpg" alt="pic4" style="width:100%" onclick="myFunction(this);">
+    </div>
+</div>
+<!-- The expand images and "x" button for return and close expand image-->
+<div class="container">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <img id="expandedImg" style="width:100%">
+    <div id="imgtext"></div>
+</div>
+<!-- Javascript for action: expand picture -->
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+<!-- The content -->
+<content id="exhibition">
+    <h2>Exhibitions</h2>
+    <h5>Arles, May 2020</h5>
+    <p>
+        The first of the shows will be at the Fondation Vincent van Gogh Arles (mid-May 2020-18 October 2020). Although
+        none of the artist’s pictures remain in the town where he once worked, the foundation will be borrowing ten
+        major Van Goghs, including Tate’s Farms near Auvers (1890). Alongside the Van Goghs there will be a display of
+        paintings inspired by them, by the Los Angeles artist Laura Owens. The Van Gogh-Owens show is organised by the
+        foundation’s artistic director, Bice Curiger.
+    </p>
+    <h5>Amsterdam, June 2020</h5>
+    <p>
+        Van Gogh’s Greatest Letters, at Amsterdam’s Van Gogh Museum (19 June-23 August 2020) will offer a very unusual
+        opportunity to see the artist’s correspondence at close hand. Nearly all his surviving letters are at the Van
+        Gogh Museum, which now has a tough conservation policy, since exposure to light can damage these fragile
+        documents. The letters are no longer lent to outside exhibitions and are only rarely presented in the museum’s
+        own shows under controlled light levels. Next summer, exceptionally, curator Nienke Bakker plans to show a
+        substantial group of 40 letters, alongside 23 related paintings and 6 drawings.
+    </p>
+    <h5>Tokyo, October 2020
+    </h5>
+    <p>
+        In 1987 the Tokyo insurance company Yasuda (now integrated into Sompo Japan Nipponkoa) bought a version of the
+        Sunflowers (1889)—Van Gogh's copy of the Sunflowers (1888) at the National Gallery in London. This became the
+        centrepiece of a museum which was set up on the 42nd floor of its headquarters. The company is now creating a
+        purpose-built museum, which is due to open on 28 May 2020 at ground level, adjacent to its skyscraper. Four
+        months later the Sompo Museum of Art will be presenting an exhibition on Van Gogh and Still Life: from Tradition
+        to Innovation (6 October-27 December 2020), curated by Shôko Kobayashi. Alongside the Sompo Sunflowers, it will
+        include 25 Van Goghs, with many coming from the two Dutch collections, the Van Gogh Museum and the
+        Kröller-Müller Museum. These will be presented alongside nearly 50 still lifes by other European artists,
+        ranging from the 17th century to the early 20th century. By coincidence, the National Gallery’s Sunflowers will
+        also be in Tokyo next
+    </p>
+</content>
+<content id="prices">
+    <h2>Prices</h2>
+    <h5>Not established yet</h5>
+</content>
+<content id="forum">
+    <h2>Forum</h2>
+    <h5>Comments</h5>
+    <p>
+        Adventures with Van Gogh is a weekly blog by <a
+            href="https://www.theartnewspaper.com/blog/hot-news-on-van-gogh-exhibitions-in-2020">Martin Bailey</a> , our
+        long-standing correspondent and expert on the
+        artist. Published every Friday, his stories will range from newsy items about this most intriguing artist to
+        scholarly pieces based on his own meticulous investigations and discoveries.
+    </p>
+</content>
+<!-- A blocquote -->
+<blockquote class="bg-gray primary">
+    <p>
+        <em>"As for me, I am rather often uneasy in my mind, because I think that my life has not been calm enough; all
+            those bitter disappointments, adversities, changes keep me from developing fully and naturally in my
+            artistic career."</em>
+    </p>
+    <small>
+        <cite title="Source Title">Vincent Van Gogh</cite>
+    </small>
+</blockquote>
+<!-- The footer -->
+<footer>
+    <h3>ProiectITutor - Tema4 Html | made by Maria Bufnea </h3>
+</footer>
+</body>
+</html>
