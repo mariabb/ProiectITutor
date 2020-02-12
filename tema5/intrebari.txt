@@ -1,0 +1,8 @@
+1.In jsfiddle cand apas pe RUN nu merg fisierul cu .js si html aferent
+2.la js n am declarat variabile si totusi a mers functia
+3.pseudo elements, se folosesc mult in practica?
+4.//the output is 3
+echo str_word_count("Aceasta este tema 5");
+Cifra 5 nu se numara?
+5.echo strpos("Maria Bufnea!", "Ana"); // 
+Aici output nu trebuia sa fie FALSE? Nu se afiseaza nimic
