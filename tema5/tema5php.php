@@ -1,7 +1,6 @@
 <?php
 echo "Exemple tipuri de date:
 <br/>";
-
 $x = 2020;
 var_dump($x);
 echo "<br />";
