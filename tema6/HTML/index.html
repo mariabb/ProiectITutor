@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="device=device-width initial-scale=1.0" />
+    <meta http-equiv="refresh" content="60" />
+    <title>Tema 6 HTML</title>
+    <link rel="stylesheet" type="text/css" href="css.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  </head>
+  <body>
+    <p>
+      In this example, the image will float to the left in the paragraph, and
+      the text in the paragraph will wrap around the image
+    </p>
+    <p>
+      <img
+        src="image.jpg"
+        alt="image"
+        style="width:170px;height:170px;margin-left:15px;"
+      />
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+      imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae
+      scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec
+      congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.
+      Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent
+      convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis
+      dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc
+      venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
+      venenatis. Integer fringilla congue eros non fermentum. Sed dapibus
+      pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+    </p>
+    <h2>Without clear</h2>
+    <div class="d1">div1</div>
+    <div class="d2">
+      div2 - Notice that div2 is after div1 in the HTML code. However, since
+      div1 floats to the left, the text in div2 flows around div1.
+    </div>
+    <br /><br />
+    <h2>With clear</h2>
+    <div class="d3">div3</div>
+    <div class="d4">
+      div4 - Here, clear: right; moves div4 down below the floating div3. The
+      value "right" clears elements floated to the left. You can also clear
+	  "right" and "both".
+	  <!--Here is an example with responsive Web Design - Frameworks Using W3.CSS-->
+	</div>
+	<br/>
+    <div class="w3-container w3-green">
+      <h1>W3Schools Demo</h1>
+      <p>Resize this responsive page!</p>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-third">
+        <h2>HTML</h2>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+        <p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <div class="w3-third">
+        <h2>CSS</h2>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+        <p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <div class="w3-third">
+        <h2>JAVASCRIPT</h2>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+        <p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

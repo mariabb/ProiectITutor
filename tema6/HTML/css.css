@@ -1,0 +1,24 @@
+img {
+    float: left;
+  }
+  .d1 {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid rgb(11, 12, 107);
+  }
+    .d2 {
+    border: 1px solid red;
+  }
+    .d3 {
+    float: right;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid rgb(57, 87, 16);
+  }
+    .d4 {
+    border: 1px solid red;
+    clear: right;
+  }
