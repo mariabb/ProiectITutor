@@ -5,22 +5,15 @@ if ($t < "23") {
     echo "How are you?";
 }
 echo "<br />";
-
 $first_number = 10;
-
 $second_number = 49;
-
 if ($first_number > $second_number) {
-
     echo "$first_number is greater than $second_number";
 } else {
-
     echo "$second_number is greater than $first_number";
 }
 echo "<br />";
-
 $bestcar = "Logan";
-
 switch ($bestcar) {
     case "Logan":
         echo "Your favorite car is Logan!";
@@ -36,9 +29,7 @@ switch ($bestcar) {
 }
 echo "<br />";
 for ($i = 0; $i < 5; $i++) {
-
     $var = 2 * $i;
-
     echo "The product of 2 * $i is $var <br/>";
 }
 echo "<br />";
@@ -55,11 +46,7 @@ do {
 } while ($x <= 110);
 echo "<br />";
 $animals_list = array("Lion","Wolf","Dog","Leopard","Tiger");
-
 foreach($animals_list as $array_values){
-
 echo $array_values . "<br>";
-
 }
-
 ?>
