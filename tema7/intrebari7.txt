@@ -11,34 +11,3 @@ doar scriind <form action="/action.php">
 
 The default HTTP method when submitting form data is GET.
 
-However, when GET is used, the form data will be visible in the page's address field:
-Am gasit aici:
-https://html.com/attributes/form-method/#ixzz6Eo2AYMKM
-
-GET
-The method attribute of the form element tells the web browser how to send form data to a server.
- Specifying a value of GET means the browser will add the form contents to the end of the URL. 
- This offers a number of advantages for simple forms.
-  It allows the browser to cache the results of the form submission, 
-  and it also allows the user to bookmark the page once the form has been submitted.
-   As such, GET is generally used for simple forms where security is not a concern.
-
-Restrictions of GET
-GET results in the entire contents of the submission being visible in the URL. 
-If your form contains sensitive data, you should specify a value of POST for the method attribute. 
-Since GET appends the form data to the current URL, it can only be used where the contents of the submission 
-(including the complete URL) will result in a string that is 2048 characters long, or less.
- This is the maximum length of a URL. GET can only be used to send ASCII data.
-
-<form method=”POST”>
-The method attribute of the form element tells the web browser how to send form data to a server. 
-Specifying a value of POST means the browser will send the data to the web server to be processed.
- This is necessary when adding data to a database, or when submitting sensitive information, such as passwords.
-
-Restrictions of POST
-When data is sent using POST, submitting the form twice will result in a duplicated entry. 
-This can be a problem if the form is linked to a membership, purchase, or other one-time action.
- This is why users cannot bookmark the results of a form submission if the method is POST.
-
-
-
