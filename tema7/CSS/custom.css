@@ -1,58 +1,37 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  /* Style the header */
-  header {
-    background-color: powderblue;
-    padding: 30px;
+.center {
     text-align: center;
-    font-size: 35px;
-    color: black;
+    border: 3px solid green;
+    background-color: coral;
   }
-  
-  /* Container for flexboxes */
-  section {
-    display: -webkit-flex;
-    display: flex;
-  }
-  
-  /* Style the navigation menu */
-  nav {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    background: rgb(137, 139, 163);
-    padding: 20px;
-  }
-  
-  /* Style the list inside the menu */
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  /* Style the content */
-  article {
-    -webkit-flex: 3;
-    -ms-flex: 3;
-    flex: 3;
-    background-color: #f1f1f1;
+  .right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid coral;
     padding: 10px;
+    background-color: green;
+  }
+  .imagediv {
+    border: 3px solid #4CAF50;
+    padding: 5px;
   }
   
-  /* Style the footer */
-  footer {
-    background-color: powderblue;
-    padding: 10px;
-    text-align: center;
-    color: black;
+   
+  .image {
+    float: right;
   }
-  .center {
-    text-align: center;
-    border: 3px solid pink;
+  .verticalorizontalcenter { 
+    height: 200px;
+    position: relative;
+    border: 3px solid green; 
   }
+  .verticalorizontalcenter p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  
