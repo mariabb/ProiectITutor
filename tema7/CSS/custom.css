@@ -16,16 +16,13 @@
     padding: 5px;
   }
   
-   
-  .image {
-    float: right;
-  }
-  .verticalorizontalcenter { 
+ 
+  .vertorizcenter { 
     height: 200px;
     position: relative;
     border: 3px solid green; 
   }
-  .verticalorizontalcenter p {
+  .vertorizcenter p {
     margin: 0;
     position: absolute;
     top: 50%;
