@@ -18,7 +18,14 @@
    scriptului curent prin metoda HTTP POST.
   Metoda GET poate fi utilizată în transmiterea datelor mai puțin importante. Notă: Metoda GET nu trebuie utilizată pentru trimiterea parolelor sau a altor informații importante!-->
     <h2>Tema 7 : HTML Forms</h2>
-    <form action="/action.php">
+    <!--Example with GET metod-->
+    <form action="http://www.google.com/search" method="get">
+      <input type="textbox" name="q" value="Nadia" />
+      <input type="submit" value="Submit" />
+      <br />
+    </form>
+    <br />
+    <form action="/action.php" method="POST" enctype="multipart/form-data">
       <label for="fname">First name:</label><br />
       <input type="text" id="fname" name="fname" value="Maria" /><br />
       <label for="lname">Last name:</label><br />
@@ -65,5 +72,6 @@
       <input type="hidden" name="MAX_FILE_SIZE" value="100" />
       <input name="file" type="file" />
     </form>
+    <br />
   </body>
 </html>
