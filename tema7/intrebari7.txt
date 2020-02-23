@@ -9,5 +9,5 @@ doar scriind <form action="/action.php">
 5.The POST method is not bookmarkable ,ce inseamna asta? (In schimb, cu metoda GET se poate face bookmark)
 6.In cazul lui GET putem avea URL ,fara action.php ?
 
-The default HTTP method when submitting form data is GET.
+
 
