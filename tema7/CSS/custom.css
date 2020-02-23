@@ -30,5 +30,32 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
-
+  div > p {
+    background-color: yellowgreen;
+  }
+  a:link {
+    color: red;
+  }
   
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  h2::first-letter {
+    color: palevioletred;
+    font-size: xx-large;
+  }
+
+  .image2 {
+    opacity: 0.5;
+  }
