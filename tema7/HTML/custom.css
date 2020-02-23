@@ -2,13 +2,10 @@ h2 {
     text-align: center;
   }
   form {
-    width: 50%;
+    width: 40%;
     margin: auto;
   }
-  .field {
-    margin: 10px 0;
-  }
-  input {
+   input {
     width: 100%;
   }
   
