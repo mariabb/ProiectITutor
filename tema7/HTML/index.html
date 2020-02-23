@@ -5,24 +5,61 @@
     <meta name="viewport" content="device=device-width initial-scale=1.0" />
     <meta http-equiv="refresh" content="60" />
     <title>Tema 7 HTML</title>
-    <link rel="stylesheet" type="text/css" href="css.css" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-  </head>
+    <link rel="stylesheet" type="text/css" href="custom.css" />
+     </head>
   <body>
-    <p>
-      lorem ipsum
-    </p>
-    
-<h2>HTML Forms</h2>
-
-<form action="/action.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="Maria"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Bufnea"><br><br>
-  <input type="submit" value="Submit">
-</form> 
-
-
+    <!--Diferenta intre metodele GET si POST consta in modul in care informatia din
+    formular este transmisa scriptului care o prelucreaza. 
+    - Metoda GET trimite toate informatiile adunate ca parte a adresei URL; aceste informatii sunt
+    vizibile pentru utilizator. 
+    - Metoda POST transmite informatia intr-oc  maniera invizibila pentru utilizator si poate transmite o cantitate mai mare
+    de date decat GET.  -->
+        <h2>Tema 7 : HTML Forms</h2>
+    <form action="/action.php">
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" value="Maria" /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" value="Bufnea" /><br /><br />
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label><br />
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label><br />
+      <br/>
+      <label for="email">Enter your email:</label>
+      <input type="email" id="email" name="email">
+      <input type="submit" value="Submit" />
+      <br />
+      <br />
+      <label for="username">Username:</label><br />
+      <input type="text" id="username" name="username" /><br />
+      <label for="pwd">Password:</label><br />
+      <input type="password" id="pwd" name="pwd" /><br /><br />
+      <input type="submit" value="Submit" />
+      <br />
+      <br />
+      <label for="class">Choose a class:</label>
+      <select id="class" name="class">
+        <option value="php">PHP</option>
+        <option value="java">JAVA</option>
+        <option value="c++">C++</option>
+        <option value="Python">Python</option>
+      </select>
+      <input type="submit" />
+      <br />
+      <br />
+      <textarea name="message" rows="5" cols="30">About me.</textarea>
+      <br /><br />
+      <input type="submit" />
+      <br />
+      <br />
+      <input type="checkbox" id="option1" name="option1" value="see" />
+      <label for="option1"> I like the see</label><br />
+      <input type="checkbox" id="option2" name="option2" value="mountain" />
+      <label for="option2"> I like the mountain</label><br />
+      <input type="submit" value="Submit" />
+      <br/>
+      <br/>
+      <input type="hidden" name="MAX_FILE_SIZE" value="100" /> <input name="file" type="file" />
+    </form>
   </body>
 </html>

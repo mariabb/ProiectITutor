@@ -1,0 +1,14 @@
+h2 {
+    text-align: center;
+  }
+  form {
+    width: 50%;
+    margin: auto;
+  }
+  .field {
+    margin: 10px 0;
+  }
+  input {
+    width: 100%;
+  }
+  
