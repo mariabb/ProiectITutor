@@ -18,3 +18,5 @@ https://mariabb.github.io/ProiectITutor/tema5/CSS/tema5css.html
 
 TEMA7:
 
+
+https://mariabb.github.io/ProiectITutor/tema7/HTML/index.html
