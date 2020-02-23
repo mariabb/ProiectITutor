@@ -6,7 +6,7 @@
 3.Cum se face legatura intre fisierul html si scriptul php? 
 doar scriind <form action="/action.php">
 4.Ar trebui sa scriem un fisier action.php in acelasi proiect cu tema7?
-
+5.The POST method is not bookmarkable ,ce inseamna asta? (In schimb, cu metoda GET se poate face bookmark)
 
 
 
