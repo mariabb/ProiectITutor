@@ -36,7 +36,6 @@ document.getElementById("concatArray").innerHTML = myClass;
 function func() {
   //Original string
   var arr = [2, 5, 8, 1, 4];
-
   //Sorting the array
   document.write(arr.sort());
   document.write("<br>");
@@ -44,9 +43,7 @@ function func() {
 }
 var numbers = [200, 100, 83, 62, 50, 45];
 var over100 = numbers.filter(myFunction);
-
 document.getElementById("indexarray").innerHTML = over100;
-
 function myFunction(value, index, array) {
   return value > 100;
 }
