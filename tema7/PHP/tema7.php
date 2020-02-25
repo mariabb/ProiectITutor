@@ -14,7 +14,7 @@ $cities = array('Cluj Napoca', 'Timisoara', 'Constanta', "Pitesti");
 echo $cities[2];
 echo "<br />";
 $zi = array("luni", "marti", "miercuri", "joi", "vineri", "sambata", "duminica"); 
-echo "Zilele saptamanii sunt: " . $zi[0] . ", " . $zi[1] ."," . $zi[2] . ", " . $zi[3] .", " . $zi[4] . " si " . $zi[6]."." ;
+echo "Zilele saptamanii sunt: " . $zi[0] . ", " . $zi[1] ."," . $zi[2] . ", " . $zi[3] .", " . $zi[4] . "," .$zi[5] ." si " . $zi[6]."." ;
 echo "<br />";
 $numerals = [1, 2, 3, 100, 84, 6, 5];
 sort($numerals);
