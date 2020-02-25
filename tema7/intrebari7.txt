@@ -8,6 +8,7 @@ doar scriind <form action="/action.php">
 4.Ar trebui sa scriem un fisier action.php in acelasi proiect cu tema7?
 5.The POST method is not bookmarkable ,ce inseamna asta? (In schimb, cu metoda GET se poate face bookmark)
 6.In cazul lui GET putem avea URL ,fara action.php ?
+7.Care este diferenta intre echo si print ?
 
 
 
