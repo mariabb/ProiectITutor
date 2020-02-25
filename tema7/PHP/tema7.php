@@ -13,6 +13,9 @@ echo "<br />";
 $cities = array('Cluj Napoca', 'Timisoara', 'Constanta', "Pitesti");
 echo $cities[2];
 echo "<br />";
+$zi = array("luni", "marti", "miercuri", "joi", "vineri", "sambata", "duminica"); 
+echo "Zilele saptamanii sunt: " . $zi[0] . ", " . $zi[1] ."," . $zi[2] . ", " . $zi[3] .", " . $zi[4] . " si " . $zi[6]."." ;
+echo "<br />";
 $numerals = [1, 2, 3, 100, 84, 6, 5];
 sort($numerals);
 print_r($numerals);
@@ -33,3 +36,8 @@ Name('Ana', 1970);
 Name('Marcel', 1971);
 Name('Anastasia', 1980);
 Name('Corina', 1975);
+
+$age = array("Ana"=>"50", "Marcel"=>"49", "Anastasia"=>"40");
+echo "Marcel is " . 
+$age['Marcel']
+ . " years old.";
