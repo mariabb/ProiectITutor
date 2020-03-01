@@ -1,0 +1,61 @@
+.center {
+    text-align: center;
+    border: 3px solid green;
+    background-color: coral;
+  }
+  .right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid coral;
+    padding: 10px;
+    background-color: green;
+  }
+  .imagediv {
+    border: 3px solid #4CAF50;
+    padding: 5px;
+  }
+  
+ 
+  .vertorizcenter { 
+    height: 200px;
+    position: relative;
+    border: 3px solid green; 
+  }
+  .vertorizcenter p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  div > p {
+    background-color: yellowgreen;
+  }
+  a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  h2::first-letter {
+    color: palevioletred;
+    font-size: xx-large;
+  }
+
+  .image2 {
+    opacity: 0.5;
+  }
