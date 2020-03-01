@@ -1,2 +1,2 @@
 
-1.Am incercat sa desenez dreptunchiuri in toate 3 formelel da nu  am reusit
+1.Am observat ca daca am un fisier html,care are si un fisier .js extern, cu canvas, daca in fisierul html pun fisiere audio si video, cand rulez in browser, nu mi mai apar desenele create cu .js
