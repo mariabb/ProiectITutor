@@ -1,2 +1,7 @@
-
 1.Am observat ca daca am un fisier html,care are si un fisier .js extern, cu canvas, daca in fisierul html pun fisiere audio si video, cand rulez in browser, nu mi mai apar desenele create cu .js
+2.De asemenea, nu pot umple celelalte doua forme (cum am facut cu prima forma patrat).
+3.La tema PHP, codul ce -l scriem ,daca incarcam in XAMPP nu vedem practic nimic, deoarece codul e doar de validare?
+4.Am copiat exemplul de pe w3school https://tryphp.w3schools.com/showphp.php?filename=demo_form_validation_escapechar
+dar cand rulez in browser nu am rezultatul corect.
+5.Nu reusesc sa obtin rezultatul corect , copiind codul de aici https://tryphp.w3schools.com/showphp.php?filename=demo_form_validation_special
+6.Nu inteleg exact legaturile intre fisierul html si php .
