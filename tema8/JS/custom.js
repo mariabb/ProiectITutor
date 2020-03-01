@@ -1,0 +1,10 @@
+var d = new Date(2018, 11, 24, 10, 33, 30);
+document.getElementById("demo").innerHTML = d;
+var d = new Date();
+document.getElementById("demo2").innerHTML = d.getFullYear();
+var d = new Date();
+document.getElementById("demo3").innerHTML = d.getMonth() + 1;
+var d = new Date();
+d.setMonth(2);
+document.getElementById("demo4").innerHTML = d;
+document.getElementById("demo5").innerHTML = Math.pow(9,2);
