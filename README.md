@@ -4,7 +4,7 @@ TEMA 4:
 
 https://mariabb.github.io/ProiectITutor/tema4/index.html
 
-Vincent Van Gogh
+Vincent Van Gogh, click on images:
 
 https://mariabb.github.io/ProiectITutor/tema4/tema4css.html
 
